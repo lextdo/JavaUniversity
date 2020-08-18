@@ -1,0 +1,14 @@
+1. Why studentID is a string
+    - In task 6 it uses a readString method to input the Student attributes into the console
+    - Therefore, if an integer is needed for student ID, another method must be created to read integers from the console
+    - That is why I choose to have the IDs as strings, so that all the attributes of the Student Object can be set using the readString method
+
+2. Why use givenName and familyName
+    - Students may have middle names, therefore their given name can include both their first name and middle name
+    - First and Last name does not include middle names
+    - This may make it easier to separate student that have the same first and last name.
+
+3. Why I chose an arrayList
+    - Easier to add students into the array list using add method
+    - For static arrays you may need a for loop to add students into the proper index (also if unit changes size you have to change the code itself)
+

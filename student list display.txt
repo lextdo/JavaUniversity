@@ -1,0 +1,9 @@
+Class this method will be in: University
+
+Steps:
+1. Make private attribute of ArrayList<Student> allStudents = new ArrayList<Student>
+    - Private as we do not want other classes to be able to access or modify the list of all the students
+2. Make getStudentArray() method in the Unit Class that returns the enrolledStudents array
+3. nested loop: Loop through the units (allUnits.get(i)), loop through the studentArray of each unit
+4. If statement using ArrayList.contains() method, if false, add to all allStudents
+5. return allStudents after the end of the nested loop.
